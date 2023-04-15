@@ -87,6 +87,7 @@ enum TrackerRole: uint8 {
     HMD = 19,
     BEACON = 20,
     GENERIC_CONTROLLER = 21,
+    ACCESSORY = 22,
 }
 
 
