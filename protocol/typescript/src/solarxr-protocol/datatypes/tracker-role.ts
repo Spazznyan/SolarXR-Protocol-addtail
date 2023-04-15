@@ -28,5 +28,6 @@ export enum TrackerRole {
   KEYBOARD = 18,
   HMD = 19,
   BEACON = 20,
-  GENERIC_CONTROLLER = 21
+  GENERIC_CONTROLLER = 21,
+  ACCESSORY = 22
 }
