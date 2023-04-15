@@ -33,8 +33,9 @@ public final class TrackerRole {
   public static final int HMD = 19;
   public static final int BEACON = 20;
   public static final int GENERIC_CONTROLLER = 21;
+  public static final int ACCESSORY = 22;
 
-  public static final String[] names = { "NONE", "WAIST", "LEFT_FOOT", "RIGHT_FOOT", "CHEST", "LEFT_KNEE", "RIGHT_KNEE", "LEFT_ELBOW", "RIGHT_ELBOW", "LEFT_SHOULDER", "RIGHT_SHOULDER", "LEFT_HAND", "RIGHT_HAND", "LEFT_CONTROLLER", "RIGHT_CONTROLLER", "HEAD", "NECK", "CAMERA", "KEYBOARD", "HMD", "BEACON", "GENERIC_CONTROLLER", };
+  public static final String[] names = { "NONE", "WAIST", "LEFT_FOOT", "RIGHT_FOOT", "CHEST", "LEFT_KNEE", "RIGHT_KNEE", "LEFT_ELBOW", "RIGHT_ELBOW", "LEFT_SHOULDER", "RIGHT_SHOULDER", "LEFT_HAND", "RIGHT_HAND", "LEFT_CONTROLLER", "RIGHT_CONTROLLER", "HEAD", "NECK", "CAMERA", "KEYBOARD", "HMD", "BEACON", "GENERIC_CONTROLLER", "ACCESSORY", };
 
   public static String name(int e) { return names[e]; }
 }
