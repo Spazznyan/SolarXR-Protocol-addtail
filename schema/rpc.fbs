@@ -183,6 +183,7 @@ table OSCTrackersSetting {
     feet: bool;
     elbows: bool;
     hands: bool;
+    accessory: bool;
 }
 
 table TapDetectionSettings {
