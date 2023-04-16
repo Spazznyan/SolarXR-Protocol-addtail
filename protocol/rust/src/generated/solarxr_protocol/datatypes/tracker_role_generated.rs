@@ -38,6 +38,7 @@ pub const ENUM_VALUES_TRACKER_ROLE: [TrackerRole; 22] = [
   TrackerRole::HMD,
   TrackerRole::BEACON,
   TrackerRole::GENERIC_CONTROLLER,
+  TrackerRole::ACCESSORY,
 ];
 
 /// Possible tracker roles
@@ -71,6 +72,7 @@ impl TrackerRole {
   pub const HMD: Self = Self(19);
   pub const BEACON: Self = Self(20);
   pub const GENERIC_CONTROLLER: Self = Self(21);
+  pub const ACCESSORY: Self = Self(21);
 
   pub const ENUM_MIN: u8 = 0;
   pub const ENUM_MAX: u8 = 21;
@@ -97,6 +99,7 @@ impl TrackerRole {
     Self::HMD,
     Self::BEACON,
     Self::GENERIC_CONTROLLER,
+    Self::ACCESSORY,
   ];
   /// Returns the variant's name or "" if unknown.
   pub fn variant_name(self) -> Option<&'static str> {
@@ -123,6 +126,7 @@ impl TrackerRole {
       Self::HMD => Some("HMD"),
       Self::BEACON => Some("BEACON"),
       Self::GENERIC_CONTROLLER => Some("GENERIC_CONTROLLER"),
+      Self::ACCESSORY => Some("ACESSORY"),
       _ => None,
     }
   }

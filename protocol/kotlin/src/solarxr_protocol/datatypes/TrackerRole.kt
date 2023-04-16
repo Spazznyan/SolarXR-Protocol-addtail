@@ -33,7 +33,8 @@ class TrackerRole private constructor() {
         const val HMD: UByte = 19u
         const val BEACON: UByte = 20u
         const val GENERICCONTROLLER: UByte = 21u
-        val names : Array<String> = arrayOf("NONE", "WAIST", "LEFT_FOOT", "RIGHT_FOOT", "CHEST", "LEFT_KNEE", "RIGHT_KNEE", "LEFT_ELBOW", "RIGHT_ELBOW", "LEFT_SHOULDER", "RIGHT_SHOULDER", "LEFT_HAND", "RIGHT_HAND", "LEFT_CONTROLLER", "RIGHT_CONTROLLER", "HEAD", "NECK", "CAMERA", "KEYBOARD", "HMD", "BEACON", "GENERIC_CONTROLLER")
+        const val ACCESSORY: UByte = 22u
+        val names : Array<String> = arrayOf("NONE", "WAIST", "LEFT_FOOT", "RIGHT_FOOT", "CHEST", "LEFT_KNEE", "RIGHT_KNEE", "LEFT_ELBOW", "RIGHT_ELBOW", "LEFT_SHOULDER", "RIGHT_SHOULDER", "LEFT_HAND", "RIGHT_HAND", "LEFT_CONTROLLER", "RIGHT_CONTROLLER", "HEAD", "NECK", "CAMERA", "KEYBOARD", "HMD", "BEACON", "GENERIC_CONTROLLER", "ACCESSORY")
         @JvmStatic
         fun name(e: Int) : String = names[e]
     }
