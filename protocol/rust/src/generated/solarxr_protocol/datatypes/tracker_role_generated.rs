@@ -72,7 +72,7 @@ impl TrackerRole {
   pub const HMD: Self = Self(19);
   pub const BEACON: Self = Self(20);
   pub const GENERIC_CONTROLLER: Self = Self(21);
-  pub const ACCESSORY: Self = Self(21);
+  pub const ACCESSORY: Self = Self(22);
 
   pub const ENUM_MIN: u8 = 0;
   pub const ENUM_MAX: u8 = 21;
